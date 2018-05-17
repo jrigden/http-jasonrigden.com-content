@@ -3,7 +3,7 @@ author: "Jason Rigden"
 author_link: "https://twitter.com/mr_rigden"
 title: "About"
 date: "2018-05-16"
-description: "This will tell you all about Jason Rigden's Blog"
+description: "This will tell you all about Jason Rigden"
 ---
 
 <p>
