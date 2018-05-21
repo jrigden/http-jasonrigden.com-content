@@ -5,7 +5,7 @@ tags: ["History", "Cryptography"]
 categories: ["Podcast"]
 date: "2018-05-02"
 author: "Jason Rigden"
-author_link: "https://twitter.com/mr_rigden"
+author_link: "https://jasonrigden.com/about/"
 canonical_url: "https://explainingcryptocurrency.net/alice_and_bob/"
 ---
 

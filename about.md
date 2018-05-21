@@ -1,6 +1,6 @@
 ---
 author: "Jason Rigden"
-author_link: "https://twitter.com/mr_rigden"
+author_link: "https://jasonrigden.com/about/"
 title: "About"
 date: "2018-05-16"
 description: "This will tell you all about Jason Rigden"
