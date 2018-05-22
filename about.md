@@ -7,7 +7,7 @@ description: "This will tell you all about Jason Rigden"
 ---
 
 <p>
-My name is Jason Rigden and this is my blog. 
+My name is Jason Rigden and this is my blog. On this site, I write programming tutorials, host a couple of podcasts, and sometimes post D&D stuff. This site is made with <a href="https://gohugo.io/">Hugo</a>. Pages are served with <a href="https://www.nginx.com/">Nginx</a> running on <a href="https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_(Xenial_Xerus)">Ubuntu 16.04</a>. <a href="https://www.linode.com/">Linode</a> is my VPS provider. 
 
 
 
@@ -104,22 +104,29 @@ I have lots of anxiety. It is often displayed as social anxiety. It often preven
 
 <h1 id="contact">Contact Info</h1>
 
-<p>If you are a nice person who genuinely needs some help, please contact me and I'll do what I can to help. 
-You can also contact me just to say hi, invite me to your event, or send me free stuff. Please send me free stuff.
+
+<p>
+You can contact me just to say hi, invite me to your event, or send me free stuff. Please send me free stuff. I would really like free stuff.
 </p>
 
-<p>I'll ignore you, if you seem unpleasant in anyway. Unless you have paid me money, I don't owe you anything. Also classists, sexists, fascists, racists, and homophobes can fuck right off.
-<p>
+<p>If you would like to advertise on this site or one of the podcasts, read the <a href="/guests">advertising page</a>.</p>
 
 
-I get lots of people contacting me with technical questions. In order to facilitate our communications, I have a recommendation.
+<p>If you would like to be a guest on <a href="">Talking Cryptocurrency</a>, read the <a href="/guests">guests page</a>.</p>
+
+<p>If you need help, contact me and I'll do what I can to help. I get lots of people contacting me with technical questions. In order to facilitate our communications, I have a recommendation.
 Learn how to ask good questions. 
 A nice place to start is, <a href="http://wiki.c2.com/?HowToAskQuestionsTheSmartWay">How To Ask Questions The Smart Way</a>.
 </p>
 
 
+<p>I'll ignore you, if you seem unpleasant in anyway. Unless you have paid me money, I don't owe you anything. Also classists, sexists, fascists, racists, and homophobes can fuck right off.
+</p>
 
-
+<p>
+<strong>Email</strong><br>
+jasonrigden@gmail.com
+</p>
 
 <p>
 <strong>Social</strong>
@@ -136,10 +143,7 @@ A nice place to start is, <a href="http://wiki.c2.com/?HowToAskQuestionsTheSmart
 </p>
 
 
-<p>
-<strong>Email</strong><br>
-jasonrigden@gmail.com
-</p>
+
 
 <p>
 <strong>Telephone</strong><br>
