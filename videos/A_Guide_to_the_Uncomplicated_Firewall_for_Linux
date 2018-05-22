@@ -7,3 +7,248 @@ author: "Jason Rigden"
 author_link: "https://jasonrigden.com/about/"
 youtube: "blx_I-MejnU"
 ---
+
+Firewalls are too import to be convoluted. UFW allows mere mortals to create firewall rules. In this post, I will walk you though all you need to know about using this awesome Linux security tool.
+
+**_Warning:_** _If you are using a remote system be careful. It is very easy to lock yourself out of remote system. If are using SSH and the firewall blocks the SSH port, you are gonna have a bad time._
+
+### Install
+
+UFW was made for Ubuntu, but now is available for most distributions. Check your distro’s package management system. For Ubuntu just run:
+
+sudo apt-get install ufw
+
+### Reset
+
+Before we do anything, we should know how to reset the firewall.
+
+sudo ufw reset
+
+This command will return UFW to its defaults. Removing any mistakes we might make.
+
+### Defaults
+
+The default settings for UFW is to allow all outgoing connections and block all incoming connections. It should also bedisabled by default.
+
+### Status
+
+We can check status of our newly installed firewall.
+
+sudo ufw status
+
+A brand new install will probably return:
+
+Status: inactive
+
+An enabled system will return something much more interesting. A nice table of rules.
+
+Status: active
+
+To                         Action      From  
+--                         ------      ----  
+OpenSSH                    DENY        Anywhere                    
+8080                       ALLOW       Anywhere                    
+2020                       ALLOW       Anywhere                    
+22                         DENY        Anywhere                  
+
+#### Verbous
+
+We can make the  `status`  option show some extra information with:
+
+sudo ufw status verbose
+
+This view is a bit more detailed.
+
+Status: active  
+Logging: on (low)  
+Default: deny (incoming), allow (outgoing), disabled (routed)  
+New profiles: skip
+
+To                         Action      From  
+--                         ------      ----  
+22/tcp (OpenSSH)           DENY IN     Anywhere                    
+8080                       ALLOW IN    Anywhere                    
+2020                       ALLOW IN    Anywhere                    
+22                         DENY IN     Anywhere                  
+
+#### Numbered
+
+We can also see the rules numbered for convience:
+
+sudo ufw status numbered
+
+This view will be very useful later, when we are deleting rules.
+
+Status: active
+
+To                         Action      From  
+     --                         ------      ----  
+[ 1] OpenSSH                    DENY IN     Anywhere  
+[ 2] 8080                       ALLOW IN    Anywhere  
+[ 3] 2020                       ALLOW IN    Anywhere  
+[ 4] 22                         DENY IN     Anywhere
+
+### Reload
+
+As we add and remove rules we will need to reload the firewall.
+
+sudo ufw reload
+
+### Enable
+
+Enable reloads the firewall and starts it when the machine boots.
+
+sudo ufw enable
+
+### Disable
+
+Unloads the firewall and it will not start automatically when the machine boots.
+
+sudo ufw disable
+
+### Allow/Deny
+
+A firewall is really just a set of rules for networking. These are rules about who can connect with a machine and who the machine can connect with. Rules about how ports, protocols, and hardware be used. UFW makes it pretty easy to write these rules. The rules we create with UFW are all about what we allow and what we deny.
+
+#### Ports
+
+Let us say we want to allow connection is our SSH server. It is listening on a non-standard port of 2020.
+
+sudo ufw allow 2020
+
+This allows TCP and UDP connections to port 2020. And if we want to block TCP and UDP connections on port 22.
+
+sudo ufw deny 22
+
+#### Services
+
+You can also create rules by name for some installed services. We can list the available services with:
+
+sudo ufw app list
+
+On my system at home, I get back:
+
+Available applications:  
+  CUPS  
+  OpenSSH
+
+If we want to allow OpenSSH. I run:
+
+sudo ufw allow OpenSSH
+
+And of course we could also block OpenSSH with:
+
+sudo ufw deny OpenSSH
+
+Although this would be a very bad idea on a remote machine.
+
+#### Address
+
+We can allow connections for specific IP addresses too.
+
+sudo ufw allow from 192.168.1.2
+
+Or we can block specific IP addresses.
+
+sudo ufw deny from 192.168.1.2
+
+#### Protocols
+
+Earlier I mentioned UDP and TCP. We can create rules for these protocols specifically.
+
+sudo ufw allow 80/tcp
+
+This will only allow TCP connections on port 80. And if we want, we can explicitly block UDP connections also.
+
+sudo ufw deny 80/udp
+
+#### Interface
+
+If you have multiple network interfaces, than you will probably want different rules for them. We want want  `eth0`  to have port 80 open.
+
+sudo ufw allow in on eth0 to any port 80
+
+#### In and Out
+
+We can allow or deny certain connections based on whether or not they are incoming or outgoing. The following will allow incoming connections on port 80.
+
+sudo ufw allow in 80
+
+And we could also block outgoing connections on port 3389.
+
+sudo ufw deny out 3389
+
+#### Combinations
+
+We can compose complex rules by combining some elements here. Let us say that I want to only allow a specific IP to access port 22.
+
+sudo ufw allow from 192.168.0.1 to any port 22
+
+### Limit
+
+We can rate limit connection. This will limit connection attempts to 6 within 30 seconds for the rule.
+
+sudo ufw limit ssh
+
+### Reject
+
+Some times we want to explicitly reject a connection. This will let the sender know they are being rejected.
+
+sudo ufw reject 666
+
+### Delete Rule
+
+Eventually, we will want delete a rule we created. That can be pretty simple.
+
+sudo ufw delete allow 80
+
+Or we can delete a rule by number. Remember:
+
+sudo ufw status numbered
+
+We got this nice table with all the rules numbered.
+
+Status: active
+
+To                         Action      From  
+     --                         ------      ----  
+[ 1] OpenSSH                    DENY IN     Anywhere                    
+[ 2] 8080                       ALLOW IN    Anywhere                    
+[ 3] 2020                       ALLOW IN    Anywhere                    
+[ 4] 22                         DENY IN     Anywhere
+
+We can delete a rule using its number.
+
+sudo ufw delete 8
+
+### Comment
+
+Commenting your code is always a good idea. After the command add  `comment`  and then a string in quotes.
+
+sudo ufw allow 22 comment 'for my SSH'
+
+Now when we run:
+
+sudo ufw status
+
+We get our little comment helper.
+
+Status: active
+
+To                         Action      From  
+--                         ------      ----  
+OpenSSH                    DENY        Anywhere                    
+8080                       ALLOW       Anywhere                    
+2020                       ALLOW       Anywhere                    
+22                         ALLOW       Anywhere        # for my SSH  
+80                         REJECT      Anywhere
+
+### Logs
+
+We can also instruct our firewall to maintain logs.
+
+sudo ufw logging on
+
+### Conclusion
+
+Firewall rules can get complex pretty fast. I hope this little tutorial can make it a little easier.
