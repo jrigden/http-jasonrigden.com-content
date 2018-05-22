@@ -2,7 +2,7 @@
 title: "Why is Cryptocurrency Obsessed with Alice and Bob?"
 description: "The two of most famous people in cryptography."
 tags: ["History", "Cryptography"]
-categories: ["Podcast", "Explaining Cryptocurrency", "Talking Cryptocurrency"]
+categories: ["Podcast", "Explaining Cryptocurrency"]
 date: "2018-05-02"
 author: "Jason Rigden"
 author_link: "https://jasonrigden.com/about/"
@@ -13,9 +13,8 @@ canonical_url: "https://explainingcryptocurrency.net/alice_and_bob/"
 <div class="player">
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6549971/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </div>
-This is an episode of my other podcast, <a href="https://explainingcryptocurrency.net">Explaining Cryptocurrency.</a>
 <p>
-<a href="https://explainingcryptocurrency.net/categories/podcast/">Subscribe to the Podast</a>
+<a href="/categories/explaining-cryptocurrency">Subscribe to the Explaining Cryptocurrency podast</a>
 </p>
 
 

@@ -2,7 +2,7 @@
 author: "Jason Rigden"
 author_link: "https://jasonrigden.com/about/"
 title: "About"
-date: "2018-05-16"
+date: "2018-01-16"
 description: "This will tell you all about Jason Rigden"
 ---
 

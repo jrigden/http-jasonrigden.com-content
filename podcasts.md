@@ -1,14 +1,14 @@
 ---
-title: "Podcasts"
+title: "Jason Rigden's Podcasts"
 description: "Jason hosts a couple of shows about cryptocurrency and the blockchain."
 feature_images: "computer-electronics-laptop-755416.jpg"
 categories: ["Podcast"]
-date: "2018-05-21"
+date: "2018-04-01"
 author: "Jason Rigden"
 author_link: "https://jasonrigden.com/about/"
 ---
 <p>
-Jason Rigden hosts a couple of podcasts about cryptocurrency and the blockchain. These shows are available on Apple Podcasts and wherever else you can find fine quality podcasts. If you would like to be a guest, check out the <a href="/guest">guest page</a>. And if you would like to advertise on the shows, check out the <a href="">ads page</a>.
+Jason hosts a couple of podcasts about cryptocurrency and the blockchain. These shows are available on Apple Podcasts and wherever else you can find fine quality podcasts. If you would like to be a guest, check out the <a href="/guest">guest page</a>. And if you would like to advertise on the shows, check out the <a href="">ads page</a>.
 </p>
 <div class="container" style="text-align:center;" >
   <div class="row">
