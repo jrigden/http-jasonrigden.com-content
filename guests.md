@@ -33,7 +33,7 @@ Fill out the from below and I will get back to you as soon as possible.
 Talking Cryptocurrency Guest Guide
 </h1>
 
-Talking Cryptocurrency interviews the people making the cryptocurrency and blockchain revolution happen. We want our interviews to be engaging and informative for our listeners. This guide will help guests prepare for their upcoming interview.
+Talking Cryptocurrency interviews the people making the cryptocurrency and blockchain revolution happen. We want our interviews to be engaging and informative for our listeners. Guests come on the show to be interviewed about their company, project, or organization. It's a great opportunity for promotion and education. This guide will help guests prepare for their upcoming interview.
 
 If you have any questions about this guide, email jason@talkingcryptocurrency.net
 
