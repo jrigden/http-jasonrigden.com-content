@@ -6,6 +6,22 @@ description: "This is the episode where I explain what the show is about. And tr
 ---
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6623997/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+<p>
+<strong>
+Subscribe on 
+        <a href="https://itunes.apple.com/us/podcast/talking-cryptocurrency/id1388099603?mt=2app=podcast">
+            Apple,
+        </a>
+        <a href="https://www.google.com/podcasts?feed=aHR0cDovL3RhbGtpbmdjcnlwdG9jdXJyZW5jeS5saWJzeW4uY29tL3Jzcw%3D%3D">
+          Android,
+        </a>
+        or
+        <a href="http://talkingcryptocurrency.libsyn.com/rss">
+          use the RSS feed.
+         </a>
+</strong>
+</p>
+
 Hello and welcome to Talking Cryptocurrency with Jason Rigden.
 I'm Jason and this is my show. Thanks for for giving this podcast a listen. This is our first episode. Our trailer episode. This is the episode where I explain what the show is about. And try to convince you to subscribe.
 
