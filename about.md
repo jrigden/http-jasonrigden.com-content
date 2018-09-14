@@ -118,11 +118,6 @@ PO BOX 858<br>
 Issaquah, Wa. 98027
 </p>
 
-<p>
-<strong>Telephone</strong><br>
-425-835-2766
-</p>
-
 
 <p>
 <strong>Social</strong>
@@ -154,107 +149,11 @@ A nice place to start is, <a href="http://wiki.c2.com/?HowToAskQuestionsTheSmart
 </p>
 
 
-<p>I'll ignore you, if you seem unpleasant in anyway. Unless you have paid me money, I don't owe you anything. Also classists, sexists, fascists, racists, and homophobes can fuck right off.
-</p>
+<p>I'll ignore you, if you seem unpleasant in anyway. Unless you have paid me money, I don't owe you anything.</p>
 
-<p>
+<p style="text-align: center;"><strong>
+Also classists, sexists, fascists, racists, and homophobes can fuck right off.
+</strong></p>
 
-<h1 id="support">Support</h1>
-
-<p>If you like Jason Rigden's work, please support it. Every bit helps. You can support Jason in a bunch of ways.
-
-<h2>Money</h2>
-<p>
-Nothing says thanks like money. 
-</p>
-
-
-<h2><a href="https://www.patreon.com/mr_rigden">Patreon</a></h2>
-<p>Send money every month</p>
-
-<h2><a href="/about/#ads">Advertise</a></h2>
-<p>Per episode rates starting at $250 USD for a preroll or $500 USD for a midroll.</p>
-
-<h2><a href="https://paypal.me/JasonRigden">Paypal</a></h2>
-<p>Send money just once</p>
-
-<h2 ><a href="/about/#postal">Postal</a></h2>
-<p>Shove some paper money in a envelope, get a stamp, and mail it</p>
-
-<h2><a href="https://blockchain.info/address/3FbN6ArAuU3eDudocJzKtRV2e7iM9vHVRZ">Bitcoin</a></h2>
-<p>3FbN6ArAuU3eDudocJzKtRV2e7iM9vHVRZ</p>
-
-<h2><a href="https://etherscan.io/address/0x64674f7f708F055Ff8D09296766AF96EC970B99D">Ethereum</a></h2>
-<p>0x64674f7f708F055Ff8D09296766AF96EC970B99D</p>
-
-
-<h2>Free</h2>
-<p>If you don't have the money to provide financial support, there are free ways to help. </p>
-
-<h2><a href="https://twitter.com/mr_rigden">Tell a Friend</a></h2>
-<p>Word of mouth is the best advertising.</p>
-
-<h2><a href="https://twitter.com/mr_rigden">Follow</a></h2>
-<p>Pump up Jason social media following.</p>
-
-<h2><a href="https://www.youtube.com/c/MrRigdensChannel/">Subscribe</a></h2>
-<p>Increase the numbers of Mr. Rigden's Channel.</p>
-
-<h2><a href="https://www.apple.com/itunes/podcasts/">Review</a></h2>
-<p>Rate &amp; review the podcasts on Apple Podcasts</p>
-
-
-<h1 id="ads">Advertising</h1>
-
-<p>
-These advertising opportunities are for the podcasts only. I do not directly sell ads for the YouTube channel or this website.
-</p>
-
-<h2>Getting Started</h2>
-<p>Fill out the form below and Jason will get back to you as soon as possible.</ph3>
-
-<p>
-    <form method="POST" action="https://formspree.io/jasonrigden@jasonrigden.com">
-    <label for="nameField">Name</label>
-    <input type="text" name="name" placeholder="">
-    <label for="emailField">Email</label>
-    <input type="email" name="email" placeholder="">
-
-    
-    <label for="messageField">What would you like to advertise?</label>
-    <textarea name="message" placeholder=""></textarea>
-
-
-    <input type="hidden" name="_subject" value="Advertisement Inquiry" />
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_format" value="plain" />
-    <button type="submit">Send</button>
-    </form>
-</p>
-
-<h2 id="rules">Rules</h2>
-<p>
-All advertisements must be legal in the jurisdiction of Seattle, Washington in the United Stated of America. All advertisements must be be approved by Jason Rigden. All payment must be made in advance in USD.
-</p>
-
-<h2 >Pricing</h2>
-<p>
-Pricing is not based on CPM. Pricing is based on the supply of episodes and the demand for advertisement space. The anticipated popularity of a specific episode will also influence price. Returning advertisers will have priority and deferential pricing.
-</p>
-
-<h2 id="pre-roll">Pre-rolls</h2>
-<p>
-These are 15 second ads that run a the very being of the show. This type of ad will have the following format: "This episode of Talking Cryptocurrency is brought to you by the number 6. Remember six is scared of 7 because 7 ate 9". These ads start at $500 UDS per episode.
-</p>
-
-<h2 id="mid-roll">Mid-rolls</h2>
-<p>
-These are 30 to 60 second ads that run during the show. These can be scripted or free form. Scripted ads have a max word count of 80 for 30 second spots and 150 for 60 second spots. 30 second ads start at $500 USD per episode and 60 econd ads start at $1000 USD per episode.
-</p>
-
-<h2 id="">Other</h2>
-<p>
-Other advertisement opportunities are negotiable. For example: affiliate codes, sponsored episodes, or longer ads.
-</p>
 
 
