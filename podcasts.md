@@ -15,14 +15,14 @@ Jason hosts a couple of podcasts about cryptocurrency and the blockchain. These 
     <div class="column">
         <div class="podcast-box">
             <h2>
-                <a href="/categories/explaining-cryptocurrency/">
-                    <img class="cover-art" src="/img/cover_art/500/explaining_cryptocurrency.jpg">
+                <a href="/categories/talk-to-the-left/">
+                    <img class="cover-art" src="/img/cover_art/talk_to_the_left.jpg">
                     <br>
-                    Explaining Cryptocurrency
+                    Talk to the Left
                 </a>
             </h2>
             <p>
-                A short format show that explains how cryptocurrency and the blockchain work.
+                Talk to the Left is a podcast that features interviews with people fighting for change.
             </p>
             <a href="https://itunes.apple.com/us/podcast/explaining-cryptocurrency/id1377416283?mt=2&amp;app=podcast">
                 <img class="apple-button" src="/img/apple_podcast.svg">
